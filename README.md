@@ -3,6 +3,10 @@
 
 Finapp helps you to control personal finances easily and efficiently.
 
+## Demo
+https://themerise.com/
+https://ilko.me/finapp/
+
 ## Setup
 
 ### Project setup
