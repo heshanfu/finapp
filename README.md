@@ -3,6 +3,8 @@
 
 Finapp helps you to control personal finances easily and efficiently.
 
+This is Finapp 2.0. For the 1.x see the [classic branch](https://github.com/ilkome/finapp/tree/classic).
+
 ## Demo
 - https://themerise.com/
 - https://ilko.me/finapp/
@@ -12,7 +14,7 @@ Finapp helps you to control personal finances easily and efficiently.
 ## Setup
 
 ### Project setup
-```
+``` bash
 # clone the repo
 $ git clone https://github.com/ilkome/finapp.git finapp
 
@@ -69,3 +71,8 @@ npm run dev
 ```
 npm run build
 ```
+
+## Stay In Touch
+- [Telegram](https://t.me/ilkome)
+- [VK](https://www.vk.com/ilkome)
+- [Facebook](https://www.facebook.com/ilkome)
