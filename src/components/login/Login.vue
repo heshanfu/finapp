@@ -34,8 +34,8 @@ export default {
     },
 
     async signInWithEmail () {
-      const email = ''
-      const password = ''
+      const email = 'demo@themerise.com'
+      const password = 'demothemerise'
       const user = await auth().signInWithEmailAndPassword(email, password)
       console.log(user)
     }
@@ -61,6 +61,8 @@ export default {
       transition(name="fadeIn")
         .login__button-spiner(v-if="loading"): Spiner
       .login__button-text Login with Google
+
+    //- .signInWithEmail(@click="signInWithEmail") signInWithEmail
 
     transition(name="slide")
       .login__error(v-if="error") {{ error }}

@@ -3,20 +3,31 @@ import localforage from 'localforage'
 import moment from 'moment'
 
 import { db } from '@/firebase'
+import debugUid from '@/debug'
 
 export default {
   initUser ({ dispatch }, userParams) {
+    let uid
+    if (debugUid && userParams.email === 'ilya.komichev@gmail.com') {
+      uid = debugUid
+    } else {
+      uid = userParams.uid
+    }
+
     const user = {
       displayName: userParams.displayName,
       email: userParams.email,
-      uid: userParams.uid
+      uid: uid
     }
 
     dispatch('setUser', user)
     dispatch('saveUserInfo', user)
     dispatch('saveLastLoginDate', user)
-    dispatch('saveUserInfo', user)
-    dispatch('saveLastLoginDate', user)
+
+    if (!debugUid) {
+      dispatch('saveUserInfo', user)
+      dispatch('saveLastLoginDate', user)
+    }
   },
 
   setUser ({ commit }, user) {
