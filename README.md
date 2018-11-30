@@ -1,11 +1,13 @@
 # Open source finance application
-> written with Vue.js and Firebase.
+> Written with Vue.js and Firebase.
 
 Finapp helps you to control personal finances easily and efficiently.
 
 ## Demo
 - https://themerise.com/
 - https://ilko.me/finapp/
+
+![Finapp 2.0.0](https://firebasestorage.googleapis.com/v0/b/finapp-17474.appspot.com/o/2.0.0%2Ffinapp-2.0.0-promo.png?alt=media&token=bce821da-f5fa-4e8a-be7a-8fc0ebfaf260)
 
 ## Setup
 
